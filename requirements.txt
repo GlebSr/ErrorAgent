@@ -1,0 +1,33 @@
+# ErrorAgent - Core dependencies
+pydantic>=2.0.0
+gitpython>=3.1.40
+networkx>=3.0
+numpy>=1.24.0
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.5
+langgraph>=0.0.20
+
+# Vector store and embeddings
+faiss-cpu>=1.7.4
+rank-bm25>=0.2.2
+
+# Static analysis (optional but recommended)
+astroid>=3.0.0
+jedi>=0.19.0
+
+# UI
+streamlit>=1.30.0
+
+# Testing and coverage parsing
+pytest>=7.4.0
+pytest-json-report>=1.5.0
+coverage>=7.0.0
+
+# Observability (optional)
+# langsmith  # Uncomment if using LangSmith tracing
+# opentelemetry-api
+# opentelemetry-sdk
